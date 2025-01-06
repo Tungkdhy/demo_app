@@ -3,9 +3,23 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@views/*": ["./src/views/*"],
+      "@layouts/*": ["./src/Layout/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@navigator": ["./src/navigator/index.ts"],
+      "@navigator/*": ["./src/navigator/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@theme": ["./src/theme/index.ts"],
+      "@modules/*": ["./src/modules/*"],
+      "@store/*": ["./src/store/*"],
+      "@screen/*": ["./src/screens/*"],
+      "@config": ["./src/config"],
+      "@components": ["./src/components/Lib"],
+      "@constants/*": ["./src/constants/*"],
+      "@navigators": ["./src/navigators"],
+      "@reduxCore/*": ["./src/reduxCore/*"],
     }
   },
   "include": [
